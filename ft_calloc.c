@@ -6,7 +6,7 @@
 /*   By: dnikifor <dnikifor@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 10:36:45 by dnikifor          #+#    #+#             */
-/*   Updated: 2023/11/03 08:49:14 by dnikifor         ###   ########.fr       */
+/*   Updated: 2024/02/05 14:32:58 by dnikifor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,17 +29,16 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	void	*p;
-	size_t	max;
+	void	*mem;
+	size_t	num;
 
-	max = 4611686014132420608;
-	if (!size || !count)
-		return (ft_calloc(1, 1));
-	if (size && count && (max / size < count))
-		return (0);
-	p = (void *)malloc(count * size * sizeof(void));
-	if (!p)
-		return (0);
-	ft_memset(p, '\0', count * size);
-	return (p);
+	num = (size_t)-1;
+	if (count != 0 && (num / count) < size)
+		return (NULL);
+	num = count * size;
+	mem = malloc(num);
+	if (!mem)
+		return (NULL);
+	memset(mem, 0, num);
+	return (mem);
 }
