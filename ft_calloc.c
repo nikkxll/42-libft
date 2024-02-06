@@ -6,7 +6,7 @@
 /*   By: dnikifor <dnikifor@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 10:36:45 by dnikifor          #+#    #+#             */
-/*   Updated: 2024/02/05 14:32:58 by dnikifor         ###   ########.fr       */
+/*   Updated: 2024/02/06 13:08:24 by dnikifor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,6 @@ void	*ft_calloc(size_t count, size_t size)
 	mem = malloc(num);
 	if (!mem)
 		return (NULL);
-	memset(mem, 0, num);
+	ft_memset(mem, 0, num);
 	return (mem);
 }
