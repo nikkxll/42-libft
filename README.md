@@ -1,4 +1,4 @@
-# libft - libft
+# Libft
 
 ## Introduction
 
