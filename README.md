@@ -1,12 +1,12 @@
 # Libft
 
-## Introduction
-
-Welcome to the `Libft` project at Hive Helsinki. This project involves the creation of custom functions that replicate the behavior of standard C library functions.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Usage](#usage)
+
+## Introduction
+
+Welcome to the `Libft` project at Hive Helsinki. This project involves the creation of custom functions that replicate the behavior of standard C library functions.
 
 ## Usage
 
@@ -21,3 +21,6 @@ You can generate the `libft` library using the provided Makefile rules. Here are
 - `make bonus`: This command to include bonus files in your library.
 
 - `make fclean`: This command is used to clean up object files and the library itself.
+
+---
+Made by dnikifor: dnikifor@student.hive.fi | LinkedIn: [dnikifor](https://www.linkedin.com/in/dmitriinikiforov/) | Tableau: [dmitriinikiforov](https://public.tableau.com/app/profile/nikiforov.dmitrii/vizzes)
