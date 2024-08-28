@@ -2,11 +2,16 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Results](#results)
 - [Usage](#usage)
 
 ## Introduction
 
 Welcome to the `Libft` project at Hive Helsinki. This project involves the creation of custom functions that replicate the behavior of standard C library functions.
+
+## Results
+
+✅ Passed with 125/100 ✅
 
 ## Usage
 
